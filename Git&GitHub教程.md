@@ -144,7 +144,7 @@ ls -lA
 
     ```shell
     git config --global user.name [用户名]
-    git config --global user.name [Email]
+    git config --global user.email [Email]
     ```
 
     **注意：** 优先级采用就近原则，项目级别优先于系统用户级别，二者都有，采用项目级别签名。二者都没有不允许。

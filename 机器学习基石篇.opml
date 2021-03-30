@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title></title>
+    <dateModified></dateModified>
+    <ownerName></ownerName>
+  </head>
+  <body>
+<outline text="机器学习基石篇">
+  <outline text="1.机器学习常见应用和适用模型（文本篇）">
+    <outline text="1.自然语言处理技术概述" _note="-   研究如何让计算机能够像人一样理解人类世界中的自然语言，包括&#10;&#10;    （1）自然语言的表示模型&#10;&#10;    （2）文本处理技术的应用：分词、搜索、主题等&#10;&#10;-   自然语言处理=文本处理+机器学习">
+    </outline>
+    <outline text="2.中英文分词模型与常见工具包" _note="-   常见的中文分词模型&#10;&#10;    （1）基于词典的机械分词模型&#10;&#10;    最大匹配法、全切分路径选择方法&#10;&#10;    （2）基于统计模型的序列标注分词模型&#10;&#10;    HMM( HiddenMarkoy Model）隐马尔科夫模基&#10;&#10;    CRF( Conditionalrandom field，条件随机场）&#10;&#10;-   常见的中文分词工具包&#10;&#10;    Word分词器&#10;&#10;    Ansj分词器&#10;&#10;    Stanford分词器&#10;&#10;    Fudannlp分词器&#10;&#10;    Jcseg分词器&#10;&#10;    smarten分词器&#10;&#10;    IKAnalyzer分词器&#10;&#10;    MMSeg4j分词器&#10;&#10;    Jieba分词器&#10;&#10;    Paoding分词器">
+    </outline>
+    <outline text="3.查询扩展模型及实例" _note="查询扩展：词相似性挖掘（交换机--路由器）&#10;&#10;-   词向量表示模型&#10;&#10;    文档-词频矩阵&#10;&#10;    共生词矩阵&#10;&#10;    word2Vec（三层神经网络构建词向量矩阵）&#10;&#10;-   词向量相似性&#10;&#10;    余弦距离&#10;&#10;    图模型&#10;&#10;-   查询扩展实例：word2vec工具包&#10;&#10;    github上下载开源工具包&#10;&#10;    用maven建立工程进行包管理">
+    </outline>
+    <outline text="4.主题模型及实例" _note="-   主题模型：&#10;&#10;    一种概率主题模型：隐含狄利克雷分布&#10;&#10;    一篇文档可以包含多个主题，文档中每一个词都由其中的一个主题生成&#10;&#10;    主要用在推荐系统中&#10;&#10;-   主题模型实例分析&#10;&#10;    github上下载[*LDAGibbsSampling*](https://github.com/yangliuy/LDAGibbsSampling)&#10;&#10;    同样使用maven工程进行包管理">
+    </outline>
+    <outline text="5.自动文本摘要模型及实例" _note="-   自动文本摘要模型&#10;&#10;    抽取型（主要方法）：直接从文章中抽取一定量的句子构成摘要&#10;&#10;    摘取型：基于对文章的深刻理解及形式化表达的基础上，重新生成文章摘要&#10;&#10;-   核心步骤&#10;&#10;    （1）（抽取型）句子打分与文摘句选择&#10;&#10;    （2）（摘取型）文摘句排序&#10;&#10;    句子压缩、句子融合、句子生成（核心词、词性分析、句子规则建模）&#10;&#10;&amp;nbsp;&#10;&#10;-   自动文本摘要工具：HanLP工具包">
+    </outline>
+  </outline>
+  <outline text="2.机器学习常见应用和适用模型（图像篇）">
+    <outline text="1.计算机视觉技术概述" _note="-   计算机视觉技术 = 图像数据 + 机器学习&#10;&#10;    图像信息表示模型&#10;&#10;    应用场景：分类、检索、分割、降噪&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/2867e68b9d53dc8bd634fec2b612754.png)">
+    </outline>
+    <outline text="2.人脸识别模型及实例" _note="-   人脸识别问题&#10;&#10;    人脸特征表示模型（颜色、纹理、形状等）&#10;&#10;    人脸识别分类器（线性判别、SVM、深度学习等）&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/068de80e7e159891b675119e3a287e4.png)&#10;&#10;&amp;nbsp;&#10;&#10;-   人脸识别实例（MATLAB实现）&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/20200428151555.png)&#10;&#10;LBP 常用于灰度图像">
+    </outline>
+    <outline text="3.图像检索模型及实例" _note="-   图像检索（基于内容的图像检索技术，CBIR）&#10;&#10;    （1）图像特征表示模型&#10;&#10;    颜色、纹理、形状、哈希等&#10;&#10;    （2）图像相似性度量模型&#10;&#10;    欧氏距离、堪培拉距离、余弦距离、马氏距离等&#10;&#10;-   图像检索实例（开源工具）：&#10;&#10;    LIRE: Lucene Image Retrieval&#10;&#10;    该工具使用gradle作为包管理工具。">
+    </outline>
+    <outline text="4.行人检测模型及实例" _note="-   行人检测模型&#10;&#10;    （1）行人图像特征表示模型&#10;&#10;    灰度、边缘、纹理、颜色、梯度直方图等&#10;&#10;    （2）行人图像分类器&#10;&#10;    神经网络、SVM、adaboost以及深度学习等&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/20200428152512.png)&#10;&#10;&amp;nbsp;&#10;&#10;-   行人检测实例&#10;&#10;    HOG（特征表示） + SVM（分类器）实例">
+    </outline>
+    <outline text="5.图像分类模型及实例" _note="-   图像分类模型&#10;&#10;    （1）图像特征表示模型&#10;&#10;    颜色、纹理、形状、哈希等&#10;&#10;    （2）图像分类器&#10;&#10;    最邻近、K临近、SVM、Deep Learning等&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/c7eee1dd47a0da9732567575d120fd5.png)&#10;&#10;&amp;nbsp;&#10;&#10;-   图像分类实例：&#10;&#10;    CIFIR-10图像分类问题（KNN）&#10;&#10;    MATLAB作为编程工具。">
+    </outline>
+  </outline>
+  <outline text="3.机器学习常见应用和适用模型（语音篇）">
+    <outline text="1.语音处理技术概述" _note="-   识别和理解语音信号实现同相应文本或命令的相互转化技术，包括&#10;&#10;（1）语音识别技术（解决设备只能通过按键操作）&#10;&#10;（2）语音合成技术（解决只能看不能听）&#10;&#10;-    语音识别技术=语音数据+机器学习">
+    </outline>
+    <outline text="2.语音识别模型及应用" _note="-   语音识别模型包含以下几个模块&#10;&#10;    语音信号预处理和特征提取&#10;&#10;    声学模型建立&#10;&#10;    语音模型建立&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/1.png)&#10;&#10;&amp;nbsp;&#10;&#10;-   语音信号预处理和特征提取包括&#10;&#10;    VAD&#10;&#10;    分帧&#10;&#10;    梅尔频率倒谱系数（MFCC）&#10;&#10;-   语音识别模型包括&#10;&#10;    声学模型建立：P（X|W）&#10;&#10;    -   字典&#10;&#10;    -   隐马尔可夫（HMM）&#10;&#10;    -   viterbi算法&#10;&#10;    语言模型建立：P（W）&#10;&#10;    -   n-gram&#10;&#10;    设W是w1，w2，...，wn组成的，则P（W）可以拆成：&#10;&#10;    ![](https://raw.githubusercontent.com/yimisiyang/cloudimage/master/Image/2.png)&#10;&#10;&amp;nbsp;&#10;&#10;-   语音识别开源工具&#10;&#10;    CMU- Sphinx、HTK、 Julius、 RWTH ASR、 Kaldi、 simon、 iATROS-&#10;    speech、SHOUT、 Zanzibar OpenIVR、百度语音识别等等。&#10;&#10;-   百度语音识别实例&#10;&#10;    具体通过百度开发者账号调用百度语音API实现，编写的是Maven项目。">
+    </outline>
+    <outline text="3.语音合成模型及应用" _note="-   语音合成模型（TTS技术又称文语转换技术）&#10;&#10;    文本分析模块&#10;&#10;    韵律生成模块&#10;&#10;    声学模块&#10;&#10;-   文本分析模块&#10;&#10;    文本规整、词的切分、语法分析和语义分析&#10;&#10;    常用方法：规则、二元、三元文法，隐马尔可夫、神经网络等&#10;&#10;&amp;nbsp;&#10;&#10;-   韵律生成模块&#10;&#10;    为合成语音规划出音段特征&#10;&#10;    基于规则、基于神经网络、基于统计模型等方法&#10;&#10;&amp;nbsp;&#10;&#10;-   声学模块&#10;&#10;    语音合成&#10;&#10;    基于参数合成的方法，基于波形拼接的方法（PsoLA算法）等&#10;&#10;&amp;nbsp;&#10;&#10;-   语音合成开源工具：&#10;&#10;    MARY&#10;&#10;    SpeakRight Framework&#10;&#10;    Festival&#10;&#10;    FreeTTS&#10;&#10;    eSpeak&#10;&#10;    Flite&#10;&#10;&amp;nbsp;&#10;&#10;-   百度语音合成实例">
+    </outline>
+  </outline>
+</outline>
+  </body>
+</opml>
